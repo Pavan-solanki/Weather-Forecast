@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: url(assets/alex-machado-80sv993lUKI-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 5px;
+}
+
+.container {
+    width: 50%;
+    height: 30vh;
+    max-width: 400px;
+    background-color: rgba(240, 248, 255, 0.543);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+
+}
+
+.weather {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: wavy;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.sun {
+    height: 150px;
+    width: 150px;
+    image-rendering: optimizeQuality;
+}
+
+.search {
+    width: 30%;
+    margin-top: 10px;
+    height: 10vh;
+    min-width: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(240, 248, 255, 0.543);
+    border-radius: 15px;
+    
+}
+
+input {
+    font: sans-serif;
+    /* max-width: 30%; */
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 15px;
+    border: none;
+    margin-right: 10px;
+    outline: none;
+    background-color: aliceblue;
+}
+
+button {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: aliceblue;
+    max-width: 10%;
+}
+
+button:hover {
+    background-color: rgba(16, 122, 214, 0.374);
+}
